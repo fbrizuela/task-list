@@ -1,8 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Task } from '../../Task'
-import { TASKS } from '../../mock-tasks'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
-
+import {TASKS } from '../../mock-tasks'
 @Component({
   selector: 'app-tasks-item',
   templateUrl: './tasks-item.component.html',
